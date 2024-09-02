@@ -31,8 +31,8 @@ public class CreateAccountSteps extends SeleniumUtility {
 
     @Then("validate full name display at profile section")
     public void validateFullNameDisplayAtProfileSection() {
-        String expectedFullName="Mathias Akowanou";
-        String fullName=gettingText(By.xpath("//p[text()='Mathias Akowanou']"));
+        String expectedFullName="Nasiba Mehraban";
+        String fullName=gettingText(By.xpath("//p[text()='Nasiba Mehraban']"));
         Assert.assertEquals(expectedFullName,fullName);
     }
 
@@ -40,8 +40,8 @@ public class CreateAccountSteps extends SeleniumUtility {
     public void userEnterSignUpInformation() {
         //randomUsername=RandomUsername();
         sendText(SignUpPage.USER_NAME_INPUT,randomUsername);
-        sendText(SignUpPage.PASSWORD_INPUT,"Akomas21");
-        sendText(SignUpPage.CONFIRM_PASSWORD_INPUT,"Akomas21");
+        sendText(SignUpPage.PASSWORD_INPUT,"Mehraban22");
+        sendText(SignUpPage.CONFIRM_PASSWORD_INPUT,"Mehraban22");
     }
 
     @When("user enter {string} and {string} to signIn")

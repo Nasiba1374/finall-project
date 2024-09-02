@@ -55,11 +55,11 @@ public class SeleniumUtility extends BaseSetup {
     }
     public String RandomEmail(){
 
-        return "akomas"+(int)(Math.random()*10000)+"@gmail.com";
+        return "Nasiba"+(int)(Math.random()*10000)+"@gmail.com";
     }
     public String RandomUsername(){
 
-        return "mahdi"+(int)(Math.random()*1000);
+        return "Mehraban"+(int)(Math.random()*1000);
     }
     public String todayDate(){
         LocalDateTime today=LocalDateTime.now();
