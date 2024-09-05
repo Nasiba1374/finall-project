@@ -63,13 +63,13 @@ public class SeleniumUtility extends BaseSetup {
     }
     public String todayDate(){
         LocalDateTime today=LocalDateTime.now();
-        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("MMMM d,yyyy");
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("MMMM d, yyyy");
         return today.format(formatter);
     }
 
     public String tomorrowDate(){
         LocalDateTime today=LocalDateTime.now();
-        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("MMMM d,yyyy");
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("MMMM d, yyyy");
         LocalDateTime tomorrow=today.plusDays(1);
         return tomorrow.format(formatter);
     }

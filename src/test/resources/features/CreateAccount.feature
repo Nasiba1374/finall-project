@@ -66,7 +66,7 @@ Feature: Navigate to Home page, User should navigate to Create Account
     When user enter signUp information
     Then user click on "Submit" button
     Then validate user in "Sign in to your Account" page
-    When user enter "RandomUsername" and "mehraban" to signIn
+    When user enter "randomUserName" and "Mehraban22" to signIn
     Then user click on "Sign In" button
     Then validate user in "Primary Account Portal" page
     Then user click on profile icon
