@@ -23,7 +23,7 @@ public class BaseSetup {
     private Properties properties;
     public BaseSetup(){
         try {
-            String configFilePath = System.getProperty("user.dir") + "/src/test/resources/configs/dev-config.properties";
+            String configFilePath = System.getProperty("user.dir") + "/src/test/resources/configs/dev-configs.properties";
 
             File file = new File(configFilePath);
             FileInputStream fileInputStream = new FileInputStream(file);
